@@ -534,11 +534,9 @@ pop_data <- pop_data[, sapply(pop_data, is.numeric)]
 
 ## References
 
-1. **Malone, B.P., Minansy, B., Brungard, C. (2019).** Some methods to improve the utility of conditioned Latin hypercube sampling. *PeerJ*, 7, e6451. [https://doi.org/10.7717/peerj.6451](https://doi.org/10.7717/peerj.6451)
-
-2. **Minasny, B., McBratney, A.B. (2006).** A conditioned Latin hypercube method for sampling in the presence of ancillary information. *Computers & Geosciences*, 32(9), 1378-1388.
-
-3. **Wadoux, A.M.J-C., Brus, D.J., Heuvelink, G.B.M. (2019).** Sampling design optimization for soil mapping with random forest. *Geoderma*, 355, 113913.
+- Malone, B.P., Minansy, B., Brungard, C. (2019). Some methods to improve the utility of conditioned Latin hypercube sampling. *PeerJ*, 7, e6451. https://doi.org/10.7717/peerj.6451
+- Minasny, B., McBratney, A.B. (2006). A conditioned Latin hypercube method for sampling in the presence of ancillary information. *Computers & Geosciences*, 32(9), 1378–1388. https://doi.org/10.1016/j.cageo.2005.12.009
+- Wadoux, A. M. J. C., Brus, D. J., & Heuvelink, G. B. M. (2019). Sampling design optimization for soil mapping with random forest. *Geoderma*, 355, 113913. https://doi.org/10.1016/j.geoderma.2019.113913.
 
 ## Technical Support
 
