@@ -54,12 +54,46 @@ install.packages(c("devtools", "shiny", "shinydashboard", "shinyWidgets",
 
 ### Package Installation
 
+Option 1: Install from GitHub (Recommended)
 ```r
-# Install from local source
+# Install devtools if you haven't already
+if (!require(devtools)) {
+  install.packages("devtools")
+}
+
+# Install OptiLHS directly from GitHub
+devtools::install_github("ccarbajal16/OptiLHS")
+```
+
+Option 2: Install using remotes package
+```r
+# Install remotes if you haven't already
+if (!require(remotes)) {
+  install.packages("remotes")
+}
+# Install OptiLHS directly from GitHub
+remotes::install_github("ccarbajal16/OptiLHS")
+```
+
+Option 3: Install from local source (for development)
+```r
+# If you have cloned the repository locally
 devtools::install("path/to/OptiLHS")
 
-# Or install directly if in the package directory
+# Or install directly if you're in the package directory
 devtools::install()
+```
+
+Installation with Dependencies
+To ensure all dependencies are properly installed:
+```r
+# Install with all dependencies
+devtools::install_github("ccarbajal16/OptiLHS", dependencies = TRUE)
+
+# Or for development version with vignettes
+devtools::install_github("ccarbajal16/OptiLHS", 
+                         dependencies = TRUE, 
+                         build_vignettes = TRUE)
 ```
 
 ## Usage
@@ -248,6 +282,6 @@ If you use the `OptiLHS` package in your research, please cite it as follows:
   month = {September},
   version = {0.1.1},
   publisher = {GitHub},
-  url = {https://github.com/ccarbajal16/OptiLHS},
+  url = {https://github.com/ccarbajal16/OptiLHS.git},
 }
 ```
