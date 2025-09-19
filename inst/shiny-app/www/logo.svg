@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="92.88031"
+   height="80.001358"
+   viewBox="0 0 92.880309 80.001359"
+   version="1.1"
+   id="svg20"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   inkscape:export-filename="logo.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview20"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="2.38"
+     inkscape:cx="70.588235"
+     inkscape:cy="109.87395"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg20">
+    <inkscape:grid
+       id="grid21"
+       units="px"
+       originx="-17.497836"
+       originy="80.314313"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       enabled="true"
+       visible="false" />
+  </sodipodi:namedview>
+  <!-- Background field/zone -->
+  <!-- Grid pattern for systematic sampling -->
+  <defs
+     id="defs1">
+    <pattern
+       id="grid"
+       width="10"
+       height="10"
+       patternUnits="userSpaceOnUse">
+      <path
+         d="M 10 0 L 0 0 0 10"
+         fill="none"
+         stroke="#ADB5BD"
+         stroke-width="0.5"
+         opacity="0.3"
+         id="path1" />
+    </pattern>
+  </defs>
+  <!-- Sampling points distributed across the field -->
+  <!-- Row 1 -->
+  <!-- Row 2 -->
+  <!-- Row 3 -->
+  <!-- Application title -->
+  <!-- Optional: Small legend indicators -->
+  <rect
+     x="0.64820528"
+     y="0.6482051"
+     width="91.5839"
+     height="78.704948"
+     rx="3.0527971"
+     ry="7.8704934"
+     fill="#dee2e6"
+     stroke="#adb5bd"
+     stroke-width="1.29641"
+     id="rect1"
+     style="fill:#b46632;fill-opacity:1" />
+  <circle
+     cx="28.804684"
+     cy="46.490784"
+     r="3"
+     fill="#2e86ab"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="circle3" />
+  <circle
+     cx="16.031574"
+     cy="46.011791"
+     r="3"
+     fill="#2e86ab"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="circle4" />
+  <circle
+     cx="10.777311"
+     cy="30.794117"
+     r="3"
+     fill="#2e86ab"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="circle4-2" />
+  <circle
+     cx="84.4916"
+     cy="9.8146782"
+     r="3"
+     fill="#2e86ab"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="circle4-9" />
+  <circle
+     cx="82.953781"
+     cy="48.92392"
+     r="3"
+     fill="#2e86ab"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="circle4-8" />
+  <circle
+     cx="46.115612"
+     cy="53.223995"
+     r="3"
+     fill="#2e86ab"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="circle5" />
+  <circle
+     cx="65.457985"
+     cy="19.537365"
+     r="3"
+     fill="#2e86ab"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="circle5-2" />
+  <circle
+     cx="76.199646"
+     cy="65.238686"
+     r="3"
+     fill="#2e86ab"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="circle6" />
+  <circle
+     cx="27.373951"
+     cy="25.755852"
+     r="3"
+     fill="#2e86ab"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="circle6-1" />
+  <circle
+     cx="21.451744"
+     cy="65.633644"
+     r="3"
+     fill="#2e86ab"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="circle9" />
+  <circle
+     cx="49.369442"
+     cy="35.416344"
+     r="3"
+     fill="#2e86ab"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="circle11" />
+  <circle
+     cx="11.056758"
+     cy="12.481152"
+     r="3"
+     fill="#2e86ab"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="circle11-9" />
+  <circle
+     cx="40.487015"
+     cy="16.655346"
+     r="3"
+     fill="#a23b72"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="circle15" />
+  <circle
+     cx="49.092854"
+     cy="66.2146"
+     r="3"
+     fill="#a23b72"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="circle16" />
+  <circle
+     cx="70.995804"
+     cy="35.058372"
+     r="3"
+     fill="#a23b72"
+     stroke="#ffffff"
+     stroke-width="1"
+     id="circle16-1" />
+  <ellipse
+     style="fill:#cd661c;fill-opacity:0.00784314;stroke:#eed9d6;stroke-width:1.333;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:1.33299994,1.33299994;stroke-dashoffset:0"
+     id="path2"
+     cx="67.647064"
+     cy="26.247452"
+     rx="13.815413"
+     ry="18.857798" />
+  <ellipse
+     style="fill:#cd401c;fill-opacity:0.00784314;stroke:#cdde1a;stroke-width:1.24426;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:7.46555972, 1.24425995;stroke-dashoffset:0"
+     id="path2-9"
+     cx="48.02808"
+     cy="58.838917"
+     rx="13.859722"
+     ry="16.381098" />
+  <ellipse
+     style="fill:#cd661c;fill-opacity:0.00784314;stroke:#1a0d0b;stroke-width:1.2734;stroke-linejoin:round;stroke-opacity:1;stroke-dasharray:1.27339995,1.27339995;stroke-dashoffset:0"
+     id="path2-9-8"
+     cx="33.860012"
+     cy="21.662441"
+     rx="15.315742"
+     ry="15.526194" />
+</svg>

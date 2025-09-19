@@ -1,0 +1,35 @@
+Package: OptiLHS
+Type: Package
+Title: Optimized Latin Hypercube Sampling for Soil Sampling Design
+Version: 0.1.1
+Author: Carlos Carbajal
+Maintainer: Carlos Carbajal <cmcarbajall@gmail.com>
+Description: A comprehensive Shiny application for optimizing soil sampling designs
+    using conditioned Latin Hypercube Sampling (cLHS) and Random Forest optimization.
+    Implements a three-module workflow: sample size optimization using KL divergence,
+    Random Forest-based sampling optimization, and alternative site selection for
+    inaccessible locations. Features a complete web interface with interactive maps,
+    progress tracking, and export capabilities. Fixed UI loading issues in v0.1.1.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports:
+    shiny (>= 1.7.0),
+    shinydashboard,
+    shinyWidgets,
+    DT,
+    plotly,
+    leaflet,
+    terra,
+    sf,
+    dplyr,
+    ggplot2,
+    clhs,
+    randomForest,
+    cluster,
+    minpack.lm,
+    gridExtra
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
