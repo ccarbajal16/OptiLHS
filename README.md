@@ -285,7 +285,7 @@ For issues, questions, or contributions, please refer to the package documentati
 
 ## License
 
-This package is distributed under the GPL-3 license. See LICENSE file for details.
+This package is distributed under the MIT license. See LICENSE file for details.
 
 ## How to Cite
 
