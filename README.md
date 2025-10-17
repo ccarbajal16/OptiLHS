@@ -17,18 +17,19 @@ The `OptiLHS` package provides a comprehensive Shiny application for optimizing 
 ### Core Modules
 
 1. **Sample Size Optimization (KL Divergence Method)**
-   - Implements the Malone et al. (2019) approach for optimal sample size determination
+
+   - Applies the method described by Malone et al. (2019) to determine appropriate sample sizes.
    - Uses Kullback-Leibler divergence to evaluate sampling efficiency
    - Fits exponential decay functions to identify optimal sample sizes
    - Provides cumulative density function analysis
-
 2. **Random Forest Optimization**
+
    - Enhances cLHS designs using Random Forest-based optimization techniques according to Wadoux et al. (2019)
    - Implements simulated annealing for sampling design improvement
    - Cross-validation for Mean Squared Error (MSE) estimation
    - Comparative analysis between initial and optimized designs
-
 3. **Alternative Site Selection**
+
    - Handles inaccessible sampling locations through buffer-based replacement described by Malone (2019)
    - Buffer zone analysis for finding alternative sites
    - Similarity-based replacement using environmental covariates
@@ -59,6 +60,7 @@ install.packages(c("devtools", "shiny", "shinydashboard", "shinyWidgets",
 ### Package Installation
 
 Option 1: Install from GitHub (Recommended)
+
 ```r
 # Install devtools if you haven't already
 if (!require(devtools)) {
@@ -70,6 +72,7 @@ devtools::install_github("ccarbajal16/OptiLHS")
 ```
 
 Option 2: Install using remotes package
+
 ```r
 # Install remotes if you haven't already
 if (!require(remotes)) {
@@ -80,6 +83,7 @@ remotes::install_github("ccarbajal16/OptiLHS")
 ```
 
 Option 3: Install from local source (for development)
+
 ```r
 # If you have cloned the repository locally
 devtools::install("path/to/OptiLHS")
@@ -90,6 +94,7 @@ devtools::install()
 
 Installation with Dependencies
 To ensure all dependencies are properly installed:
+
 ```r
 # Install with all dependencies
 devtools::install_github("ccarbajal16/OptiLHS", dependencies = TRUE)
@@ -167,28 +172,33 @@ Environmental Layers:
 ## Workflow
 
 ### 1. Data Preparation
+
 - Upload environmental raster layers
 - Verify coordinate reference systems
 - Check data quality and completeness
 
 ### 2. Sample Size Optimization
+
 - Define optimization parameters (min/max samples, iterations)
 - Run KL divergence analysis
 - Review exponential decay fitting
 - Select optimal sample size based on CDF threshold
 
 ### 3. Sampling Design Generation
+
 - Generate initial cLHS design
 - Optional: Apply Random Forest optimization
 - Visualize sampling locations on interactive map
 
 ### 4. Alternative Site Selection (if needed)
+
 - Upload inaccessible site coordinates
 - Define buffer distances and similarity thresholds
 - Generate alternative sampling locations
 - Review and approve replacements
 
 ### 5. Export Results
+
 - Download optimized sampling design
 - Export as shapefile or CSV format
 - Save optimization reports and visualizations
@@ -198,6 +208,7 @@ Environmental Layers:
 ### KL Divergence Optimization
 
 Based on Malone et al. (2019), this method:
+
 - Evaluates how well sample distributions represent population distributions
 - Uses multiple sample sizes with replication
 - Fits exponential decay functions: `KL = b1 * exp(-k * n) + b0`
@@ -218,6 +229,7 @@ Based on Malone et al. (2019), this method:
 - Maintains spatial and environmental representativeness
 
 ## Package Structure
+
 ```
 OptiLHS/
 ├── DESCRIPTION              # Package metadata and dependencies
@@ -256,6 +268,7 @@ OptiLHS/
 ### Getting Help
 
 For technical issues:
+
 1. Check the `TECHNICAL_GUIDE.md` file for more details on methods and implementation
 2. Review the function documentation: `help("launch_optilhs_app")`
 3. Ensure test data is available at the specified location
@@ -274,8 +287,8 @@ For issues, questions, or contributions, please refer to the package documentati
 
 This package is distributed under the GPL-3 license. See LICENSE file for details.
 
-
 ## How to Cite
+
 If you use the `OptiLHS` package in your research, please cite it as follows:
 
 ```r
