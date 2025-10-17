@@ -1,5 +1,9 @@
 # OptiLHS: Optimized Latin Hypercube Sampling Package
 
+[![R](https://img.shields.io/badge/R-4.0%2B-blue.svg)](https://www.r-project.org/)
+[![Shiny](https://img.shields.io/badge/Shiny-1.7%2B-brightgreen.svg)](https://shiny.rstudio.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 <div align="center">
   <img src="inst/shiny-app/www/hex-Opti-LHS.png" alt="OptiLHS Logo" width="200" height="200">
 </div>
